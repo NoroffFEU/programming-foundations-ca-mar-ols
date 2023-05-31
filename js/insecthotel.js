@@ -34,6 +34,12 @@ const insectHotel = {
       numberOfSpecies: 17500,
       usefulFor: "pollination",
     },
+    {
+      type: "Ladybug",
+      inRiskOfExtinction: true,
+      numberOfSpecies: 6000,
+      usefulFor: "pest control",
+    },
   ],
   temperature: function (temperature) {
     if (temperature >= this.minCelsiusForInsectsToThrive) {
