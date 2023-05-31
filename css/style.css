@@ -1,4 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
-	font-family: sans-serif;
-	padding: 1em 3em;
+  font-family: sans-serif;
+  padding: 1em 3em;
+  background-image: url(../images/insects_lower_opacity.png);
+  background-position-x: center;
+  background-position-y: center;
+}
+
+img {
+  max-width: 100%;
+}
+
+.insect-hotel_container {
+  max-width: 900px;
+  margin: auto;
+  padding-top: 5%;
+}
+
+.insect-hotel_img {
+  border: solid 30px #ffe46a;
+  border-radius: 20px;
 }
