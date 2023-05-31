@@ -10,9 +10,9 @@ The object contains the five obligatory types of property and the two optionals;
 
 And the properties are as follows:
 
-- colour (String), colour of the insect hotel: set to light wood
+- colour (String), colour of the insect hotel
 - numberOfCompartments (Number), number of compartments the hotel contains
-- minCelciusForInsectsToThrive (Number), the lowest celcius the insects need to live/thrive
+- minCelsiusForInsectsToThrive (Number), the lowest celsius the insects need to live/thrive
 - currentlyOccupied (Boolean), describes whether the hotel is currently in use
 - materialsUsed (Array), lists the materials used to make the insect hotel
 - location (Nested object), describes the location of the insect hotel
@@ -30,7 +30,7 @@ And the properties are as follows:
   - type (String), describes the type of insect
   - inRiskOfExtinction (Boolean), states whether the insect is at risk of extinction or not
   - numberOfSpecies (Number), states the number of species of said insect
-  - usefulFor (String), describes what the insect is useful for on the planet
+  - usefulFor (String), describes what the insect is useful for on this planet
 
 - temperature (Function), a function to calculate if your current temperature is high enough for the insects to thrive
   - To run function, type: insectHotel.temperature(); in the console of your browser, and insert the current temperature in your area in the parentheses and hit enter
