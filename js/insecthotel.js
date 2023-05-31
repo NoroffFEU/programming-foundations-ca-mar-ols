@@ -1,13 +1,14 @@
 const insectHotel = {
+  colour: "light wood",
+  numberOfCompartments: 6,
+  minCelsiusForInsectsToThrive: 10,
+  currentlyOccupied: false,
+  materialsUsed: ["wood", "bamboo", "pine cones", "sawdust"],
   location: {
     placement: "outside on shed wall",
     shedOwners: ["dad", "stepmom"],
     closestNeighbour: "rosebush",
   },
-  materialsUsed: ["wood", "bamboo", "pine cones", "sawdust"],
-  colour: "light wood",
-  numberOfCompartments: 6,
-  currentlyOccupied: false,
   typesOfInsects: [
     {
       type: "Bee",
@@ -34,16 +35,13 @@ const insectHotel = {
       usefulFor: "pollination",
     },
   ],
-  minCelciusForInsectsToThrive: 10,
   temperature: function (temperature) {
-    if (temperature >= this.minCelciusForInsectsToThrive) {
-      console.log("Congrats, you've got bees!");
+    if (temperature >= this.minCelsiusForInsectsToThrive) {
+      console.log("Congrats, your milkshake brought all the bees to the yard!");
     } else {
-      console.log("No bees for you.");
+      console.log("Where are the bees? Not in this bonnet!");
     }
   },
 };
-
-insectHotel.temperature(21);
 
 console.log(insectHotel);
