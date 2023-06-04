@@ -104,6 +104,7 @@ span {
 }
 
 .checkTemp {
+  max-width: 600px;
   margin-bottom: 50px;
 }
 
