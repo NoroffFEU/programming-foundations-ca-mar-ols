@@ -110,7 +110,22 @@
           </div>
         </div>
       </section>
-      <section class="checkTemp"></section>
+      <section class="checkTemp">
+        <h3>But am I hot enough?</h3>
+        <p>
+          One final, but very important, factor, our gentle guests require a
+          temperature that is <span class="italic">just</span> right. Anything
+          below <span class="temp"></span> degrees celsius is simply too cold
+          for them to thrive. Input the current temperature in your area to see
+          if they could have a buzzin' good time in
+          <span class="italic">your</span> garden.
+        </p>
+        <input type="number" id="userTemp" value="" />
+        <button onclick="checkMyTemp()" class="tempBtn">
+          Check my temperature
+        </button>
+        <p id="tempResult"></p>
+      </section>
       <section>
         <p>So what are you waiting for?</p>
         <div class="btnContainer">

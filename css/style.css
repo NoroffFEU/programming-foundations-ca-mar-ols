@@ -78,6 +78,11 @@ span {
   font-weight: 800;
 }
 
+.italic {
+  font-style: italic;
+  text-decoration: none;
+}
+
 .intro {
   max-width: 400px;
 }
@@ -91,6 +96,15 @@ span {
   border: 1px solid;
   border-radius: 10px;
   padding: 10px;
+}
+
+.tempBtn {
+  display: block;
+  margin: 0 auto;
+}
+
+.checkTemp {
+  margin-bottom: 50px;
 }
 
 .insect-hotel_container {

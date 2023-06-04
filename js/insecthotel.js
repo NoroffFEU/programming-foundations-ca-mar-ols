@@ -188,6 +188,23 @@ if (insectHotel.typesOfInsects[4].inRiskOfExtinction === true) {
 var usefulLadybug = document.querySelector(".useful5");
 usefulLadybug.innerHTML += insectHotel.typesOfInsects[4].usefulFor;
 
+// Temperature check
+
+var insertTemp = document.querySelector(".temp");
+insertTemp.innerHTML += insectHotel.minCelsiusForInsectsToThrive;
+
+function checkMyTemp() {
+  var tempInput = document.getElementById("userTemp").value;
+  // var temp = 10;
+  if (tempInput >= insectHotel.minCelsiusForInsectsToThrive) {
+    document.getElementById("tempResult").innerHTML =
+      "Congrats, your milkshake brought all the bees to the yard!";
+  } else {
+    document.getElementById("tempResult").innerHTML =
+      "Where are the bees? Not in this bonnet!";
+  }
+}
+
 // Bees flying in from left with sound
 
 var buzz = new Audio();
