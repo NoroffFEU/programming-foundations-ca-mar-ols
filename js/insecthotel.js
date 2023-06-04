@@ -218,7 +218,7 @@ sendBees.onclick = function () {
   var bees = setInterval(movingBees, 1);
   function movingBees() {
     if (position == midScreen) {
-      resetInterval(bees);
+      clearInterval(bees);
     } else {
       position++;
       getBees.style.left = position + "px";
