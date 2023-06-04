@@ -14,7 +14,7 @@ body {
 
 button {
   font-family: inherit;
-  width: 200px;
+  max-width: 200px;
   padding: 10px 5px;
   background-color: #ffc918;
   border: 2px solid;
@@ -31,6 +31,13 @@ img {
 
 span {
   text-decoration: underline;
+}
+
+.section-bg {
+  background-color: #ffc31d;
+  border: 2px solid;
+  border-radius: 10px;
+  padding: 20px;
 }
 
 .beeBtn,
@@ -72,11 +79,18 @@ span {
 }
 
 .intro {
-  background-color: #ffc31d;
-  border: 2px solid;
-  border-radius: 10px;
-  padding: 20px;
   max-width: 400px;
+}
+
+.insectContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.insect {
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 10px;
 }
 
 .insect-hotel_container {
