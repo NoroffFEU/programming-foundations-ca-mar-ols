@@ -5,16 +5,132 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Programming Foundations CA</title>
     <link href="css/style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Podkova:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
     <link rel="icon" href="data:;base64,=" />
   </head>
 
   <body>
-    <div class="insect-hotel_container">
-      <img
-        src="images/IMG_20230531_124834~2.jpg"
-        alt="An insect hotel hung on a red shed"
-        class="insect-hotel_img"
-      />
+    <div class="wrapper">
+      <h1>
+        Welcome to the
+        <span class="hotelName"
+          >Bum<span class="b_lower tilt">b</span>ling
+          <span class="b_upper tilt">B</span>ee</span
+        >
+      </h1>
+      <h2 class="hotelName">Insect Hotel</h2>
+      <p class="section-bg intro">
+        We cordially invite you to check in at our hum<span class="pun"
+          >bee</span
+        >le abode. We offer fine accommodations and have bountiful beds for all,
+        from the <span class="pun">buzziest</span> bees to the most
+        <span class="pun">bee</span>autiful butterflies.
+      </p>
+      <section class="warning">
+        <p>*Warning*</p>
+        <p>
+          Interacting with this page may result in silliness, loud annoying
+          buzzing may occur; adjust volume and expectations accordingly!
+        </p>
+      </section>
+      <section class="properties">
+        <h3>Properties</h3>
+        <p>
+          The location of this hotel is <span class="location"></span> in my
+          <span class="dad"></span> and <span class="stepmom"></span> garden.
+        </p>
+        <p>
+          It has <span class="compartments"></span> compartments and a
+          <span class="colour"></span> colour, and the materials used to build
+          it are <span class="materials1"></span> and
+          <span class="materials2"></span>
+        </p>
+      </section>
+      <section>
+        <h4>Are you an insect? Click below to check availability!</h4>
+        <button id="rentARoom">Rooms for rent</button>
+      </section>
+      <section class="section-bg insect-info">
+        <h3>So what type of bunkmates can you expect to find here?</h3>
+        <div class="insectContainer">
+          <div class="insect">
+            <h4>The Busy <span class="typeBee"></span></h4>
+            <img src="images/bee.png" alt="A drawing of a bee" />
+            <p>How many species do I have?</p>
+            <p><span class="species1"></span></p>
+            <p>Am I in risk of extinction?</p>
+            <p><span class="extinct1"></span></p>
+            <p>What am I useful for?</p>
+            <p><span class="useful1"></span></p>
+          </div>
+          <div class="insect">
+            <h4>The Wild <span class="typeWasp"></span></h4>
+            <img src="images/wasp.png" alt="A drawing of a wasp" />
+            <p>How many species do I have?</p>
+            <p><span class="species2"></span></p>
+            <p>Am I in risk of extinction?</p>
+            <p><span class="extinct2"></span></p>
+            <p>What am I useful for?</p>
+            <p><span class="useful2"></span></p>
+          </div>
+          <div class="insect">
+            <h4>The Brazen <span class="typeBumblebee"></span></h4>
+            <img src="images/bumblebee.png" alt="A drawing of a bumblebee" />
+            <p>How many species do I have?</p>
+            <p><span class="species3"></span></p>
+            <p>Am I in risk of extinction?</p>
+            <p><span class="extinct3"></span></p>
+            <p>What am I useful for?</p>
+            <p><span class="useful3"></span></p>
+          </div>
+          <div class="insect">
+            <h4>The Breezy <span class="typeButterfly"></span></h4>
+            <img src="images/butterfly.png" alt="A drawing of a butterfly" />
+            <p>How many species do I have?</p>
+            <p><span class="species4"></span></p>
+            <p>Am I in risk of extinction?</p>
+            <p><span class="extinct4"></span></p>
+            <p>What am I useful for?</p>
+            <p><span class="useful4"></span></p>
+          </div>
+          <div class="insect">
+            <h4>The Lucky <span class="typeLadybug"></span></h4>
+            <img src="images/ladybug.png" alt="A drawing of a ladybug" />
+            <p>How many species do I have?</p>
+            <p><span class="species5"></span></p>
+            <p>Am I in risk of extinction?</p>
+            <p><span class="extinct5"></span></p>
+            <p>What am I useful for?</p>
+            <p><span class="useful5"></span></p>
+          </div>
+        </div>
+      </section>
+      <section class="checkTemp"></section>
+      <section>
+        <p>So what are you waiting for?</p>
+        <div class="btnContainer">
+          <button class="beeBtn" onmousedown="buzz.play()">
+            Release the bees!
+          </button>
+        </div>
+        <div id="animatedBees">
+          <img src="images/bumblebee.png" alt="A drawing of a bumblebee" />
+          <img src="images/bumblebee.png" alt="A drawing of a bumblebee" />
+          <img src="images/bumblebee.png" alt="A drawing of a bumblebee" />
+          <img src="images/bumblebee.png" alt="A drawing of a bumblebee" />
+        </div>
+        <div class="insect-hotel_container">
+          <img
+            src="images/IMG_20230531_124834~2.jpg"
+            alt="An insect hotel hung on a red shed"
+          />
+        </div>
+      </section>
     </div>
     <script src="js/insecthotel.js"></script>
   </body>

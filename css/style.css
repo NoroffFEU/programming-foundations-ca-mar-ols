@@ -1,32 +1,119 @@
 * {
   box-sizing: border-box;
+  margin: 20px auto;
 }
 
 body {
-  font-family: sans-serif;
+  font-family: Podkova, sans-serif;
   padding: 1em 3em;
   background-image: url(../images/insects_bg.png);
   background-position-x: center;
   background-position-y: center;
+  text-align: center;
+}
+
+button {
+  font-family: inherit;
+  width: 200px;
+  padding: 10px 5px;
+  background-color: #ffc918;
+  border: 2px solid;
+  border-radius: 10px;
+  font-size: 1.3rem;
+  font-weight: 800;
+  cursor: pointer;
 }
 
 img {
+  display: block;
   max-width: 100%;
+}
+
+span {
+  text-decoration: underline;
+}
+
+.beeBtn,
+#animatedBees,
+.btnContainer {
+  display: none;
+}
+
+.wrapper {
+  background-color: #ffdb65;
+  height: auto;
+  width: 70%;
+  padding: 1rem;
+  border-radius: 20px;
+}
+
+.hotelName {
+  display: block;
+  text-decoration: none;
+  margin: 0;
+}
+
+.tilt {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.b_lower {
+  transform: rotate(40deg);
+}
+
+.b_upper {
+  transform: rotate(-35deg);
+}
+
+.pun {
+  text-decoration: none;
+  font-weight: 800;
+}
+
+.intro {
+  background-color: #ffc31d;
+  border: 2px solid;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 400px;
 }
 
 .insect-hotel_container {
   max-width: 900px;
-  margin: auto;
-  padding-top: 5%;
 }
 
-.insect-hotel_img {
-  border: solid 15px #ffe46a;
-  border-radius: 20px;
+.insect-hotel_container img {
+  border: solid 10px #ffc31d;
+  border-radius: 10px;
 }
 
 @media (min-width: 800px) {
-  .insect-hotel_img {
-    border: solid 30px #ffe46a;
+  .beeBtn,
+  #animatedBees,
+  .btnContainer {
+    display: block;
+  }
+
+  .warning {
+    width: 400px;
+    font-weight: 800;
+  }
+
+  .btnContainer {
+    width: 300px;
+  }
+
+  .btnContainer p {
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+  }
+
+  #animatedBees {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    left: -1000px;
+    margin-top: 50px;
   }
 }
