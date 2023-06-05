@@ -195,7 +195,6 @@ insertTemp.innerHTML += insectHotel.minCelsiusForInsectsToThrive;
 
 function checkMyTemp() {
   var tempInput = document.getElementById("userTemp").value;
-  // var temp = 10;
   if (tempInput >= insectHotel.minCelsiusForInsectsToThrive) {
     document.getElementById("tempResult").innerHTML =
       "Congrats, your milkshake brought all the bees to the yard!";
