@@ -41,6 +41,8 @@ span {
 }
 
 .beeBtn,
+.waiting,
+.warning,
 #animatedBees,
 .btnContainer {
   display: none;
@@ -117,8 +119,9 @@ span {
   border-radius: 10px;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 700px) {
   .beeBtn,
+  .warning,
   #animatedBees,
   .btnContainer {
     display: block;
