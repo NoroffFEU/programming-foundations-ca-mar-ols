@@ -122,6 +122,7 @@ span {
 @media (min-width: 700px) {
   .beeBtn,
   .warning,
+  .waiting,
   #animatedBees,
   .btnContainer {
     display: block;
