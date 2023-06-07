@@ -34,3 +34,18 @@ And the properties are as follows:
 
 - temperature (Function), a function to calculate if your current temperature is high enough for the insects to thrive
   - To run function, type: insectHotel.temperature(); in the console of your browser, and insert the current temperature in your area in the parentheses and hit enter
+
+### References:
+
+Icons used in UI, all from Flaticon.com:
+
+- Beehive: Smashicons
+- Bee/ladybug: amonrat rungreangfangsai
+- Butterfly/wasp: Freepik
+- Bumblebee: Amethyst prime
+
+Background made by me, made up of the above icons.
+
+- Bee sound from taylordon at freesound.org.
+
+Photo of insect hotel, taken by my dad, Rolf Olsen.
